@@ -22,10 +22,8 @@ USER_AGENT = "docs-app/1.0"
 async def get_weather(query: WeatherRequest) -> WeatherResponse:
     """
     搜索指定地點的氣象信息。
-
     参数:
         query: 要查看的地方 (例如 "beijing")
-
     返回:
      天氣詳情
     """
@@ -37,11 +35,8 @@ async def get_weather(query: WeatherRequest) -> WeatherResponse:
 async def searcher(query: SearchRequest) -> SearchResponse:
     """
     搜索给定查询和库的最新文档。
-
     参数:
     query: 要搜索的查询 (例如 "React Agent")
-    library: 要搜索的库 (例如 "agno")
-
     返回:
     文档中的文本
     """
