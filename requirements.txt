@@ -1,0 +1,12 @@
+# 基础工具
+pydantic
+uvicorn
+loguru
+bs4
+starlette
+
+# 后端服务
+fastapi
+fastapi_mcp
+mcp-proxy
+mcp
