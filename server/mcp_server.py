@@ -18,18 +18,6 @@ mcp = FastMCP("docs")
 
 USER_AGENT = "docs-app/1.0"
 
-# docs_urls = {
-#     "langchain": "python.langchain.com/docs",
-#     "llama-index": "docs.llamaindex.ai/en/stable",
-#     "autogen": "microsoft.github.io/autogen/stable",
-#     "agno": "docs.agno.com",
-#     "openai-agents-sdk": "openai.github.io/openai-agents-python",
-#     "mcp-doc": "modelcontextprotocol.io",
-#     "camel-ai": "docs.camel-ai.org",
-#     "crew-ai": "docs.crewai.com"
-# }
-
-
 @mcp.tool()
 async def get_weather(query: WeatherRequest) -> WeatherResponse:
     """
